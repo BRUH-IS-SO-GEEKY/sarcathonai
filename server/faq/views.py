@@ -23,7 +23,7 @@ USERNAME = 'elastic'
 PASSWORD = 'eDh1RQbA3i6dMv2cEYNNcy2J'
 
 
-GEMINI_API_KEY = "AIzaSyDAh7Ug0TKtRuq6w7RAjekLlvy8SRLza1M"
+GEMINI_API_KEY = "(Your API Key)"
 genai.configure(api_key=GEMINI_API_KEY)
 
 FAQ_PATH = os.path.join(os.path.dirname(__file__), 'faq_data.json')
